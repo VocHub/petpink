@@ -1,0 +1,192 @@
+/*----------------------------------Font, Colours*/
+.font {
+    font-family: 'Sriracha', cursive, sans-serif;
+}
+.colour {
+    color: #fafafa;
+}
+/*--------------------------------- Heading*/
+.nav-item{
+    font-size: 1.5rem;
+}
+/*---------------------------------- Home page*/
+.photo-home {
+    background: url("../images/HomePhoto.jpg");
+    opacity: 0.85;
+    height: 125vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-home {
+    margin-top: 2vh;
+    color: rgb(22, 21, 21);
+}
+.purpose {
+    position: relative;
+    top: 85%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.home_page{
+    height: 100vh
+}
+/*----------------------------------About Us page*/
+.photo-aboutUs {
+    background: url("../images/AboutUsPhoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.90;
+}
+
+.backgound-aboutUs{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text-aboutUs {
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+}
+.text-aboutUs li {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.title-aboutUs {
+    font-size: 2rem;
+    margin: 2.5vh 0 7.5vh 0;
+    text-align: center;
+}
+/*-------------------------------------Contact Us*/
+.photo-contactUs {
+    background: url("../images/ContactUsPhoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.95;
+    min-height: 100vh;
+}
+.title-contactUs {
+    font-size: 2rem;
+}
+.contact-form {
+    opacity: 0.9;
+    margin-top: 15vh;
+    width: 65%;
+    margin-bottom: 10vh;
+    min-height: 60%;
+}
+.inputAreas {
+    width: 100%;
+}
+.submit {
+    background-color: rgb(32, 145, 197); 
+    color: #fafafa;
+    height: 10vh;
+}
+.submit:hover {
+    background-color: rgb(18, 36, 143);
+    color: rgb(203, 203, 223);
+}
+/*----------------------------------- Footer*/
+.social-links{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.social-links .col a i{
+    color: #212529;
+}
+/*-------------------------------------------- Media Querys*/
+@media (min-width: 391px) {
+    .purpose {
+        font-size: 1.75rem;
+        top: 90vh;
+    }
+    .title-home {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 576px) { 
+    .purpose {
+        text-align: left;
+        font-size: 2rem;
+    }
+    .title-home {
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .title-contactUs {
+        font-size: 3rem;
+    }
+    .contact-call {
+        font-size: 2.5rem;
+    }
+    .contact-form {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) { 
+    .title-home {
+        font-size: 4rem;
+        text-align: left;
+    }
+    .purpose {
+        font-size: 2.5rem;
+    }
+    .photo-aboutUs {
+        height: min-content;
+    }
+    .title-aboutUs {
+        font-size: 3.5rem;
+        margin: 2.5vh;
+    }
+    .text-aboutUs {
+        font-size: 2.5rem;
+        margin-top: 10%;
+    }
+    .title-contactUs {
+        font-size: 3.5rem;
+    }
+    .contact-call {
+        font-size: 3rem;
+    }
+    .contact-form {
+        margin-top: 20vh;
+        width: 55%;
+    }
+}
+
+@media (min-width: 992px) { 
+    .navbar-nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .purpose {
+        top: 40%;
+    }
+    .photo-home {
+        height: 90vh;
+    }
+    .title-contactUs {
+        font-size: 4.5rem;
+    }
+    .contact-call {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 1400px){
+    .title-home {
+        font-size: 4.5rem;
+        margin-right: 90vh
+    }
+    .title-aboutUs {
+        font-size: 4.5rem;
+    }
+    .text-aboutUs {
+        font-size: 3rem;
+    }
+}
